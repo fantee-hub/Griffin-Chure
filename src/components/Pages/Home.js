@@ -27,12 +27,9 @@ const Home = () => {
       <>
         <Intro>
           <p>
-            The short version is that I'm a biologist trying to become a
-            physicist. The slightly longer version is that I'm a postdoc at
-            Stanford sitting in the lab of Jonas Cremer where I use principles
-            of bacterial physiology to make predictive models of evolution. I
-            firmly believe that the future of biology relies on an intuition for
-            the physics that governs it, especially in evolutionary biology.
+            I am a biochemist applying machine learning in biology and
+            biomedicine. Currently, I specialize in the field of cancer
+            metabolomics.
           </p>
         </Intro>
         <ImageCollection>

@@ -28,46 +28,62 @@ const About = () => {
         </section>
         <div className="about-content">
           <p>
-            I’m a postdoctoral scholar in the lab of{" "}
-            <span>
+            I am a post-doctoral fellow working in the Fernandez lab at the
+            School of Chemistry and Biochemistry at the Georgia Institute of
+            Technology.{" "}
+            {/* <span>
               <a href="https://cremerlab.com">Jonas Cremer</a>
             </span>{" "}
             at{" "}
             <span>
               <a href="https://stanford.edu">Stanford University</a>
-            </span>{" "}
-            in Stanford, CA. I love anything microbial, quantitative, or wrapped
+            </span>{" "} */}
+            {/* in Stanford, CA. I love anything microbial, quantitative, or wrapped
             in tortillas. I firmly believe that the future of biology relies on
             an intuition for the physics that governs it. I believe this is
             especially true for evolutionary biology where insights from
             statistical mechanics will help shed light on the fundamental
-            evolutionary processes that sculpt genomes.
+            evolutionary processes that sculpt genomes. */}
           </p>
           <p>
-            I am passionate about programming and promote the use of open source
-            software for scientific computing. As outlined on my research page,
-            I have been using GitHub as a lab notebook where all code, data, and
-            visualizations are freely and easily available to the public. I’ve
-            turned my work-flow into a{" "}
+            My research work is at the interface of biochemistry, cancer
+            metabolism, and applied machine learning.
+          </p>
+          <p>
+            Postdoctoral research: discovery of metabolic biomarkers for ovarian
+            cancer.
+          </p>
+          <p>
+            I carried out various projects during my Ph.D program, some were
+            successful, while some were not. Some of the projects include
+          </p>
+          <ol>
+            <li>
+              Detection and staging of kidney cancer using urine metabolomics
+              and machine learning
+            </li>
+            <li>Insilico toxicity prediction with deep learning</li>
+            <li>Computer vision for microscopy image analysis and,</li>
+            <li>Explainable AI for metabolomics studies</li>
+          </ol>
+          <p>
+            My previous research experience includes the study of DNA damage
+            response using yeast genomics and metabolic investigations of the
+            role of glycosyltransferases in Caenorhabditis elegans.
+          </p>
+          <p>
+            At my leisure, I write transdisciplinary essays at Bifarin V
+            Substack which can be found at this URL:{" "}
             <span>
-              <a href="https://github.com/gchure/reproducible_research">
-                template GitHub repository
+              <a href="bifarinthefifth.substack.com">
+                bifarinthefifth.substack.com.
               </a>
             </span>{" "}
-            so bench scientists can start doing open-source science without the
-            organizational overhead. Eventually, I’ll write something up about
-            my experience with structuring my research to be open and
-            reproducible from project inception.
-          </p>
-          <p>
-            Outside of science, I love taking{" "}
+            In addition, I have written computational essays on data science and
+            AI at{" "}
             <span>
-              <a href="https://gchure.github.io/photography">photographs</a>
+              <a href="bifarinthefifth.com/ai">bifarinthefifth.com/ai</a>
             </span>
-            , making programmatically generated art and exploring the wild lands
-            of California / Rocky Mountain West. Being married to a screen
-            writer, I also watch my fair share of films and television on which
-            I have hard-headed opinions.
           </p>
         </div>
         <Footer />
