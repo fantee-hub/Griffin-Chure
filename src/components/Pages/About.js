@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { useLocation } from "react-router-dom";
 import Nav from "../Nav/Nav";
 /** image */
-import profile from "../images/2021-02_bonny_doon.png";
+import profile from "../images/bifarin_phd.jpeg";
 /** image */
 /**Footer */
 import Footer from "../footer/Footer";
