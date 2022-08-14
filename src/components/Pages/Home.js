@@ -6,11 +6,11 @@ import { useLocation } from "react-router-dom";
 import Nav from "../Nav/Nav";
 
 /** Images */
-import bugs from "../images/bugs.png";
-import caltech from "../images/caltech.jpg";
-import diffractionPattern from "../images/diffraction_pattern.jpg";
-import notes from "../images/notes.png";
-import iguacu from "../images/iguacu.jpeg";
+import bugs from "../images/about.png";
+import caltech from "../images/CV.png";
+import diffractionPattern from "../images/teaching.png";
+import notes from "../images/research.png";
+import iguacu from "../images/blog.png";
 import random_walk from "../images/random_walk_expon.png";
 /** Images */
 
@@ -37,19 +37,16 @@ const Home = () => {
             <Link to="/About">
               <span className="img-1">
                 <img src={bugs} alt="bugs" />
-                <div className="text-1">About</div>
               </span>
             </Link>
             <Link to="/Teaching">
               <span className="img-2">
                 <img src={diffractionPattern} alt="diffractionPattern" />
-                <div className="text-2">Teaching</div>
               </span>
             </Link>
             <Link to="/Photography">
               <span className="img-3">
                 <img src={iguacu} alt="iguacu" />
-                <div className="text-3">Photography</div>
               </span>
             </Link>
           </div>
@@ -57,13 +54,11 @@ const Home = () => {
             <Link to="/CV">
               <span>
                 <img src={caltech} alt="caltech" />
-                <div className="text-4">Curriculum Vitae</div>
               </span>
             </Link>
             <Link to="/Research">
               <span>
                 <img src={notes} alt="notes" />
-                <div className="text-5">Research</div>
               </span>
             </Link>
             <Link to="/Showcase">

@@ -18,7 +18,7 @@ const Nav = () => {
       <NavBar>
         <div className="brand-name">
           <Link to="/">
-            Griffin Chure, PhD
+            Olatomiwa O. Bifarin, PhD
             <Line style={{ width: "0%" }} />
           </Link>
         </div>

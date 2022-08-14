@@ -14,8 +14,8 @@ const Footer = () => {
     <FooterSection>
       <div className="footer-content">
         <div className="email-part">
-          <a href="http://mailto:gchure@stanford.edu/">gchure@stanford.edu</a>
-          <p>&copy; {getYear} Griffin Chure, PhD Jekyll Themes</p>
+          <a href="http://mailto:obifarin@gatech.edu">obifarin@gatech.edu</a>
+          <p>&copy; {getYear} Olatomiwa O. Bifarin, PhD</p>
         </div>
         <div className="social-links">
           <div>
