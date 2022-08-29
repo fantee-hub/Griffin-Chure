@@ -15,16 +15,75 @@ const Teaching = () => {
     <>
       <Nav />
       <TeachingSection>
-        <h1>Teaching</h1>
+        <h1>Teaching and Mentoring</h1>
         <p>
-          Teaching has played an integral role in my development as a scientist.
-          I am interested in teaching interdisciplinary methods to approach
-          biological questions across all scales drawing heavily from physics
-          and mathematics as well as from the computational sciences.
+          I taught an introductory class on machine learning during the COVID-19
+          pandemic: The course covers the concept behind popular shallow
+          learning algorithms.{" "}
+          <a href="https://www.youtube.com/playlist?list=PLT6EohMcXE3SaiUEsU3LMZdbbVCOl3-WD">
+            <span className="button">Video Library</span>
+          </a>
+          <a href="https://github.com/obifarin/machine-learning.ainotes">
+            <span className="button">Computational Notebook</span>
+          </a>
         </p>
         <div className="computational-tut">
-          <h2>Computational tutorials for Bi1 - The Great Ideas of Biology</h2>
           <div className="sub-header">
+            <h2>
+              As a graduate teaching assistant at the Department of
+              Biochemistry, The University of Georgia (2016-2021)
+            </h2>
+            <ul>
+              <li>
+                I assisted professors in grading several undergraduate
+                biochemistry classes.
+              </li>
+              <li>I taught principles of biology class in Fall 2020</li>
+            </ul>
+          </div>
+          <div className="sub-header">
+            <h2>
+              As Graduate Research Assistant at the Department of Biochemistry,
+              The University of Georgia
+            </h2>
+            <ul>
+              <li>
+                I trained at least ten undergraduate students as a graduate
+                student in the Edison Lab
+              </li>
+              <ul>
+                <li>2016 summer REU: Abigael Kosgei, Claflin University</li>
+                <li>2017 summer REU: Gideon Adu, Claflin University</li>
+                <li>2017 spring: Sung Alexander, UGA Biochemistry.</li>
+                <li>2018 Spring & Fall: Jack Doll, UGA Engineering.</li>
+                <li>2018 Fall: Jane Guo, UGA Biochemistry.</li>
+                <li>2018 Spring & Fall: Oudhay Sohal, UGA Biochemistry.</li>
+                <li>2018 Fall: Julia Roth, UGA Genetics and Biology.</li>
+                <li>2018 Fall: Hailey Goldberg, UGA Biochemistry.</li>
+                <li>2018 Fall: Taha Rahmatullah, UGA Biochemistry.</li>
+                <li>2018 Fall: Sharon Maina, UGA Biochemistry.</li>
+              </ul>
+            </ul>
+          </div>
+          <div className="sub-header">
+            <h2>
+              As Graduate Teaching Assistant (Aug 2013 - May 2015) at the
+              department of biology The Catholic University of America{" "}
+            </h2>
+            <ul>
+              <li>
+                I assisted the professor in teaching a first-year biology
+                laboratory class: BIOL 105 and 106 – the mechanisms of life.
+              </li>
+              <li>
+                The compendium of my work includes preparation for lab sections,
+                teaching students, setting quiz questions, and grading lab
+                reports.
+              </li>
+            </ul>
+          </div>
+
+          {/* <div className="sub-header">
             <p className="sub-heading">
               Basic DNA Sequence Analysis{" "}
               <a href="http://bi1.caltech.edu/code/t01_sequence_analysis.html">
@@ -96,16 +155,36 @@ const Teaching = () => {
               teaches the student how to write them and explore their behavior
               computationally.
             </p>
-          </div>
+          </div> */}
         </div>
         <div className="other-classes">
-          <h2>Other Classes At Caltech & Beyond</h2>
+          <h2>Invited Talks</h2>
           <p>
-            Below are links to the various courses I have had the privilege to
-            TA.
+            <i>
+              Machine Learning-Enabled Renal Cell Carcinoma Status Prediction
+              Using Multiplatform Urine-Based Metabolomics,
+            </i>{" "}
+            Metabolomics Association of North America (MANA) committee for
+            Software and Data (SoDa) Exchange. February 2022. Talk{" "}
+            <i>Data Analysis for Metabolic Phenotyping,</i> Guest Lecturer for
+            CHEM 8823: Metabolomics graduate class at Georgia Institute of
+            Technology. The class was taught by David Gaul and Facundo
+            Fernandez. March 2022.
           </p>
+          <div className="video-container">
+            <iframe
+              className="responsive-iframe"
+              width="853"
+              height="480"
+              src="https://www.youtube.com/embed/k3cMRdJt1VQ"
+              title="Data Analysis in Metabolomics by Olatomiwa Bifarin: CHEM 8823 @ Georgia Tech."
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
 
-          <div className="sub-header">
+          {/* <div className="sub-header">
             <p className="sub-heading">
               Human Impacts by the Numbers{" "}
               <a href="https://www.rpgroup.caltech.edu/aph150">
@@ -233,8 +312,8 @@ const Teaching = () => {
               ideas of biology” through experimentation. Students perform a
               variety of experiments including single-cell microscopy,
               optogenetics, and DNA sequencing.
-            </p>
-          </div>
+            </p> 
+          </div>*/}
         </div>
         <Footer />
       </TeachingSection>
@@ -249,11 +328,11 @@ const TeachingSection = styled.section`
   .sub-header .sub-heading {
     font-weight: 600;
   }
-  .sub-header span {
+  span {
     margin-right: 0.5rem;
   }
   .computational-tut h2 {
-    padding-top: 3rem;
+    padding-top: 1.5rem;
   }
   .other-classes h2 {
     padding-top: 3rem;
@@ -262,6 +341,21 @@ const TeachingSection = styled.section`
     width: 90%;
     .sub-header span {
       margin-top: 0.5rem;
+    }
+    .video-container {
+      position: relative;
+      overflow: hidden;
+      width: 100%;
+      padding-top: 56.25%;
+      .responsive-iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+      }
     }
   }
 `;

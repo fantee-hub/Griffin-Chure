@@ -12,7 +12,9 @@ const Globalstyles = createGlobalStyle`
         line-height: 1;
         color: #6C7A89;
     }
-
+    a{
+        text-decoration: none;
+    }
     h1, h2, h3, h4, h5, h6 {
         font-family: 'Crimson Text', serif;
         color: #4b4b4b;

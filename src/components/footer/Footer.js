@@ -14,7 +14,7 @@ const Footer = () => {
     <FooterSection>
       <div className="footer-content">
         <div className="email-part">
-          <a href="http://mailto:obifarin@gatech.edu">obifarin@gatech.edu</a>
+          <a href="mailto:obifarin3@gatech.edu">obifarin3@gatech.edu</a>
           <p>&copy; {getYear} Olatomiwa O. Bifarin, PhD</p>
         </div>
         <div className="social-links">
