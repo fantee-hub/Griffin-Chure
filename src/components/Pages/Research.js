@@ -160,7 +160,7 @@ const Research = () => {
               Machine Learning-enabled Renal Cell Carcinoma Status Prediction
               Using Multi-Platform Urine-based Metabolomics
             </h2>
-            <a href="https://pubs.acs.org/doi/10.1021/acs.jproteome.1c00213">
+            <a href="https://obifarin-rccapp-app-m11cme.streamlitapp.com">
               <span className="button">Publisher Website</span>
             </a>
 
